@@ -54,6 +54,7 @@ body {
 
 .navbar-links li:hover {
     background-color: #d1d1d1;
+    border-radius: 1rem;
 }
 
 .navbar-links li a:hover {
@@ -213,11 +214,12 @@ body {
 }
 
 .section .text{
-    padding: 100px ;
+    padding: 0px 100px ;
 }
 
 .section .text h1{
     font-size: 40px;
+    padding: 30px 0;
 }
 
 .section .text p{
@@ -234,8 +236,15 @@ body {
     object-fit: cover;
 }
 
+.container h2{
+    padding: 20px 100px;
+    font-size: 35px;
+    font-weight: 100;
+    background-color:rgb(255, 255, 255);
+}
+
 .price-list{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 0 100px;
 }
@@ -250,11 +259,27 @@ table{
     width: 49%;
 }
 
+th{
+    background-color: rgb(255, 255, 255);
+    height: 2rem;
+}
+
 table, th, tr, td{
-    border: solid 1px black;
     border-collapse: collapse;
     font-size: 20px;
     padding: 5px 10px;
+}
+
+tr.lite{
+    border-top: 1px solid rgb(71, 201, 252);
+}
+
+tr.solid{
+    border-top: 2px solid rgb(71, 201, 252);
+}
+
+tr.down{
+    border-bottom: 2px solid rgb(71, 201, 252);
 }
 
 td.price{
