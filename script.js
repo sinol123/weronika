@@ -11,7 +11,7 @@ offerButton.addEventListener('click', () => {
   offerDiv.style.opacity = 1;
   offerDiv.style.transform = 'translateY(0)';
   offerDiv.style.pointerEvents = 'all';
-  offerDiv.style.zIndex = 1;
+  offerDiv.style.zIndex = 2;
 })
 
 offerButton2.addEventListener('click', () => {

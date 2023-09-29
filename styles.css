@@ -56,6 +56,10 @@ body {
     background-color: #d1d1d1;
 }
 
+.navbar-links li a:hover {
+    color: rgb(282, 83, 21);
+}
+
 .toggle-button {
     position: absolute;
     display: none;
@@ -78,6 +82,8 @@ body {
 }
 
 .offer{
+    position: absolute;
+    width: 100%;
     z-index: 0;
     background-color: white;
     padding: 2rem 10rem;
@@ -100,6 +106,8 @@ body {
 
 .offer .lists .list h2{
     font-size: 30px;
+    color: rgb(282, 83, 21);
+    margin-bottom: 5px;
 }
 
 .offer .lists .list a{
@@ -111,7 +119,7 @@ body {
 }
 
 .offer .lists .list a:hover{
-    color: black;
+    color: rgb(282, 83, 21);
 }
 
 .offer .offer-button{
@@ -134,6 +142,62 @@ body {
 }
 .offer .offer-button img{
     width: 100%;
+}
+
+
+.contact{
+    z-index: 1;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #e9e7e7;
+    padding-bottom: 87px;
+}
+
+.contact h1{
+    font-size: 60px;
+    padding: 70px;
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+.contact .info{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .info .element {
+    text-align: center;
+    margin: 0px 200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+
+}
+
+.contact .info .element .photo img{
+    display: block;
+    height: 14rem;
+}
+
+.contact .info .element h2{
+    padding: 15px;
+    font-size: 50px;
+}
+
+.contact .info .element p{
+    font-size: 30px;
+}
+
+.hujk{
+    z-index: 0;
+    position: relative;;
 }
 
 @media (max-width: 1000px) {
@@ -174,4 +238,7 @@ body {
         gap: 1rem;
     }
 
+    .offer .offer-button{
+        margin-top: 10px;
+    }
 }
