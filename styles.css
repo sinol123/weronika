@@ -21,7 +21,7 @@ body {
 }
 
 .brand-title {
-    height: 9rem;
+    height: 7rem;
 }
 
 .brand-title img{
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar-links li a {
-    font-size: 30px;
+    font-size: 25px;
     display: block;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -194,50 +194,71 @@ body {
     font-size: 30px;
 }
 
-.hujk{
-    z-index: 0;
-    position: relative;;
-}
-
-.section1{
+.container{
     display: flex;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.section1 .left{
-    width: 50%;
-    padding: 50px;
+.section{
+    display: flex;
     background-color: white;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
 }
 
-.section1 .left h1{
+.section div{
+    float: left;
+    width: 50%;
+    background-color: white;
+}
+
+.section .text{
+    padding: 100px ;
+}
+
+.section .text h1{
     font-size: 40px;
 }
 
-.section1 .left p{
+.section .text p{
     font-size: 20px;
-    padding: 5px;
 }
 
-.section1 .right{
+.section .image{
     width: 50%;
 }
 
-.right img{
+.section .image img{
     width: 100%;
-    height: 300px;
+    max-height: 500px;
     object-fit: cover;
 }
 
 .price-list{
- background-color: white;
- color: black;
- padding: 20px 200px;   
+    background-color: white;
+    color: black;
+    padding: 0 100px;
 }
 
-.price-list-description p{
-    font-size: 40px;
+.price-list-tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table{
+    width: 49%;
+}
+
+table, th, tr, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+td.price{
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
