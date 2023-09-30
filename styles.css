@@ -286,6 +286,18 @@ td.price{
     text-align: center;
 }
 
+.comments{
+    margin: 20px 0 ;
+}
+
+h2.comments-header{
+    padding: 10px 0;
+}
+
+.comments ul{
+    list-style-position: inside;
+
+}
 @media (max-width: 1000px) {
     .navbar {
         flex-direction: column;
