@@ -1,0 +1,115 @@
+.section{
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+}
+
+
+
+.left-side{
+    width: 50%;
+}
+
+.left-side .text{
+    padding: 50px 100px;
+}
+
+.left-side .text h1{
+    font-size: 40px;
+}
+
+.left-side .text p{
+    font-size: 20px;
+    padding: .5rem 0;
+}
+
+
+
+.right-side{
+    width: 50%;
+}
+
+.right-side img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+
+
+.headline{
+    padding: 2rem 100px;
+}
+
+.headline h2{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+
+
+.price-lists{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+table{
+    width: 49%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border-radius: .3rem;
+}
+
+table, tr, td{
+    border-collapse:collapse;
+}
+
+tr, td{
+    font-size: 20px;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+tr.lite{
+    border-top: 1px solid rgb(71, 201, 252);
+}
+
+tr.solid{
+    border-top: 2px solid rgb(71, 201, 252);
+}
+
+tr.down{
+    border-bottom: 0px solid rgb(71, 201, 252);
+}
+
+th{
+    height: 2rem;
+}
+
+td.price{
+    text-align: center;
+}
+
+.comments{
+    padding: 2rem 100px;
+}
+
+.comments h2{
+    font-size: 30px;
+    margin-bottom: .5rem;
+}
+
+.comments ul{
+    list-style-position: inside;
+}
+
+.comments li{
+    font-size: 20px;
+}
+
+footer{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    background-color: rgba(226, 186, 161, 1);
+    padding: 1rem 100px;
+}

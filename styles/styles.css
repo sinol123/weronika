@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
     z-index: 1;
     display: flex;
@@ -270,7 +265,7 @@ table, th, tr, td{
     padding: 5px 10px;
 }
 
-tr.lite{
+ tr.lite{
     border-top: 1px solid rgb(71, 201, 252);
 }
 

@@ -1,0 +1,144 @@
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+}
+
+.brand-title {
+    height: 7rem;
+}
+
+.brand-title img{
+    height: calc(100% - 2rem);
+    margin: 1rem;
+}
+
+.navbar-links {
+    height: 100%;
+    margin-right: 2rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.navbar-links li a:hover {
+    color: rgb(282, 83, 21);
+}
+
+.navbar-media{
+    height: 7rem;
+}
+
+.navbar-media a{
+    display: block;
+}
+
+.navbar-media ul{
+    display: flex;
+}
+
+.navbar-media img{
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem 1rem;
+}
+
+.toggle-button {
+    position: absolute;
+    display: none;
+    right: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio : 1 / 1;
+    height: calc(112px);
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: .5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+}
+
+.toggle-button .bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.offer{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    padding: 2rem 10rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-144px);
+    transition: opacity 0.5s ease-in-out 0s, transform 0.5s ease-in-out 0s;
+}
+
+.offer .lists{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.offer .lists .list{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer .lists .list h2{
+    font-size: 30px;
+    color: rgb(282, 83, 21);
+    margin-bottom: 5px;
+}
+
+.offer .lists .list a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(126, 125, 125);
+    padding: 2px;
+}
+
+.offer .lists .list a:hover{
+    color: rgb(282, 83, 21);
+}
+
+.offer .offer-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+.offer .offer-button:hover{
+    background-color: #d1d1d1;
+    transform :rotate(90deg);
+    transition: transform 0.3s ease-in-out 0s;
+
+}
+.offer .offer-button img{
+    width: 100%;
+}
+

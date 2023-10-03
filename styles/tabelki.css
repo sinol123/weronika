@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.table{
+    box-sizing:unset;
+    margin: 200px auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+
+.cell1 { grid-area: package;}
+.cell2 { grid-area: time;}
+.cell3 { grid-area: kids12;}
+.cell4 { grid-area: kids20;}
+.rows  { grid-area: rows;}
+.price { grid-area: price;}
+
+.header{
+    background-color: rgba(255, 255 ,255, 0.7);
+    display: grid;
+    grid-template-areas: 
+    "package package time time"
+    "package package kids12 kids20";
+}
+
+.services { grid-area: service;}
+.price { grid-area: price;}
+.price2 { grid-area: price2;}
+
+.rest{
+    background-color: rgba(255, 255 ,255, 0.5);
+    display: grid;
+    grid-template-areas: 
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2"
+    "service service price price2";
+}
+
+.header div, .rest div{
+    
+}
