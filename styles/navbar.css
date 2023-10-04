@@ -4,6 +4,7 @@
     align-items: center;
     color: rgb(0, 0, 0);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    background-color: white;
 }
 
 .brand-title {
@@ -101,6 +102,7 @@
 .offer .lists .list{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .offer .lists .list h2{
