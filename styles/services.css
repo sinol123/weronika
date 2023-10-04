@@ -47,8 +47,6 @@
     font-weight: 100;
 }
 
-
-
 .price-lists{
     display: flex;
     justify-content: space-between;
@@ -106,6 +104,10 @@ td.price{
 
 .comments li{
     font-size: 20px;
+}
+.comments.mikolaj{
+    padding: 0;
+    width: 49%;
 }
 
 footer{
